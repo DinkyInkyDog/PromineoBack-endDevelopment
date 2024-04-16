@@ -1,4 +1,4 @@
-package week2Conditionals;
+package conditionalsPartTwo;
 
 public class willMyTeamMakeThePlayoffs {
 
