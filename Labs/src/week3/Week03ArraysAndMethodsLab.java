@@ -4,7 +4,7 @@
 // Subject: Arrays & Methods
 // Java Week 03 Lab
 //
-package week03;
+package week3;
 
 public class Week03ArraysAndMethodsLab {
 
