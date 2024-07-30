@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=mysql-java/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;provided.util{DaoBase.java[DaoBase" modifiers="1025" timestamp="1717307959200"/>
+    <typeInfo handle="=mysql-java/C:\/Program Files\/Java\/jdk-17\/lib\/jrt-fs.jar`java.base=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/17\/docs\/api\/=/=/maven.pomderived=/true=/&lt;java.lang(RuntimeException.class[RuntimeException" modifiers="33" timestamp="1711676772840"/>
+    <typeInfo handle="=pet.store/C:\/Users\/patty\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/3.3.1\/spring-data-jpa-3.3.1.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/3.3.1=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1719278719444"/>
+</typeInfoHistroy>

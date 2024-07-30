@@ -1,0 +1,38 @@
+package hospital.service;
+
+import java.util.NoSuchElementException;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import hospital.dao.DepartmentDao;
+import hospital.dao.HousekeeperDao;
+import hospital.dao.RoomDao;
+import hospital.housekeeping.entity.Department;
+import hospital.housekeeping.entity.Housekeeper;
+
+@Service
+public class HospitalService {
+	
+	@Autowired
+	DepartmentDao dd;
+	
+	@Autowired
+	HousekeeperDao hd;
+	
+	@Autowired
+	RoomDao rd;
+
+	public Department getDepartmentById(Long departmentId) {
+		return dd.findById(departmentId).orElseThrow(() -> new NoSuchElementException(
+				"Department with ID=" + departmentId + " was not found."));
+		
+	}
+
+	public Housekeeper getHousekeeperById(Long housekeeperId) {
+		return hd.findById(housekeeperId).orElseThrow(() -> new NoSuchElementException(
+				"Department with ID=" + housekeeperId + " was not found."));
+		
+	}
+
+}

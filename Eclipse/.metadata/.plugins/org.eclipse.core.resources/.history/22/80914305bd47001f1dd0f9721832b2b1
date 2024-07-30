@@ -1,0 +1,44 @@
+package hospital.housekeeping.controller.model;
+
+import lombok.Data;
+
+
+@Data
+public class RoomData {
+	
+	
+	private Long roomId;
+	
+	private String roomName;
+	private boolean roomCleanedToday;
+	
+	private HousekeeperResponse roomCleanedBy;
+	
+	private DepartmentResponse roomDepartment;
+	
+	
+	public RoomData(Room room) {
+		
+	}
+	
+	
+	public void setRoomName() {
+		
+	}
+	
+	public class DepartmentResponse {
+		private Long departmentId;
+		private String departmentName;
+		private String departmentFloor;
+		
+		public DepartmentResponse(DepartmentData dd) {
+			departmentId = dd.getDepartmentId();
+			departmentName = dd.getDepartmentName();
+			departmentFloor = dd.getDepartmentFloor();
+		}
+	}
+	
+	public class HousekeeperResponse {
+		
+	}
+}

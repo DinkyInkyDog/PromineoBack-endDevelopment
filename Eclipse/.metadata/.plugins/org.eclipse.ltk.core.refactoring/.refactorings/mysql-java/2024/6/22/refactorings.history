@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;project.entity&apos; to &apos;projects.entity&apos;&#x0D;&#x0A;- Original project: &apos;mysql-java&apos;&#x0D;&#x0A;- Original element: &apos;mysql-java/src/main/java/project.entity&apos;&#x0D;&#x0A;- Renamed element: &apos;mysql-java/src/main/java/projects.entity&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;project.entity&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;project.entity" name="projects.entity" qualified="false" references="true" stamp="1717205348805" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,16 @@
+package hospital.housekeeping.entity;
+
+import java.util.Set;
+
+public class Department {
+	
+	
+	private Long departmentId;
+	
+	private String departmentName;
+	private String departmentFloor;
+	
+	private Set<Housekeeper> housekeepers;
+	
+	private Set<Room> rooms;
+}

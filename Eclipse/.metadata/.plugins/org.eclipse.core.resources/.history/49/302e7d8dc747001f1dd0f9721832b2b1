@@ -1,0 +1,46 @@
+package hospital.housekeeping.controller.model;
+
+import java.util.Set;
+
+
+import hospital.housekeeping.entity.Department;
+import hospital.housekeeping.entity.Housekeeper;
+import lombok.Data;
+
+@Data
+public class DepartmentData {
+	
+	private Long departmentId;
+	
+	private String departmentName;
+	private String departmentFloor;
+	
+	private Set<HousekeeperResponse> housekeepers;
+	
+	private Set<RoomData> rooms;
+	
+	public DepartmentData(Department de) {
+		departmentId = de.getDepartmentId();
+		departmentName = de.getDepartmentName();
+		departmentFloor = de.getDepartmentFloor();
+		
+		for (Housekeeper keeper: de.getHousekeepers()) {
+			housekeepers.add(new HousekeeperResponse(keeper));
+		}
+	}
+	
+	@Data
+	public class HousekeeperResponse {
+		private Long housekeeperId;
+		private String housekeeperFirstName;
+		private String housekeeperLastName;
+		private Long housekeeperPager;
+		
+		public HousekeeperResponse(Housekeeper hk) {
+			housekeeperId = hk.getHousekeeperId();
+			housekeeperFirstName = hk.getHousekeeperFirstName();
+			housekeeperLastName = hk.getHousekeeperLastName();
+			housekeeperPager = hk.getHousekeeperPager();
+		}
+	}
+}

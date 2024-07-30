@@ -1,0 +1,24 @@
+package pet.store.Test;
+
+
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import pet.store.controller.model.EmployeeData;
+import pet.store.service.StoreService;
+
+class StoreControllerTest {
+
+	@BeforeEach
+	void setUp() throws Exception {
+		StoreService ss = new StoreService();
+	}
+
+	@Test
+	void test() {
+		EmployeeData employeeMock = new EmployeeData();
+		
+	}
+
+}

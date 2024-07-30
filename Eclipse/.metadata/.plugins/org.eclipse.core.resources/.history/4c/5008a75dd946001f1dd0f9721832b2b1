@@ -1,0 +1,15 @@
+package hospital.housekeeping.entity;
+
+public class Room {
+
+	
+	private Long roomId;
+	
+	private String roomName;
+	private boolean roomCleanedToday;
+	
+	
+	private Housekeeper roomCleanedBy;
+	
+	private Department roomDepartment;
+}

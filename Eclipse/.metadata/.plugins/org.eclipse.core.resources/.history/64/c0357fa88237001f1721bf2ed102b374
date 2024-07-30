@@ -1,0 +1,5 @@
+package pet.store.Dao;
+
+public interface PetStoreDao {
+
+}

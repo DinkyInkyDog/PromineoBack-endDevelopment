@@ -1,0 +1,7 @@
+package hospital.housekeeping.controller;
+
+import org.springframework.data.repository.CrudRepository;
+
+public class RoomsRepository implements CrudRepository<T, ID> {
+
+}
